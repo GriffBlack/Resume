@@ -4,96 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!-- main container -->
     <div class="wrapper">
       <aside class="sidebar">
-        <img class="my-photo" src="./Img/My-ph.jpg" alt="" />
+        <img class="my__photo" src="./Img/My-ph.jpg" alt="" height="600"/>
 
         <!-- Contacts -->
 
-        <div class="contacts-container">
-          <h3>Contacts</h3>
-          <div>
-            <span class="cont-l-type"> C:</span>
-            <a class="cont-link" href=" +38 095 113 85 98">
-              +38 095 113 85 98
+        <div class="sidebar__contacts">
+          <h3 class="sidebar__title">Contacts</h3>
+          <div class="sidebar__city">
+            <span class="sidebar__span"> Москва</span>
+          </div>
+          <div class="cont__phone">
+            <a class="cont__link" href="tel:+79313421968">
+              +7(931)342-19-68
             </a>
           </div>
+          <div class="cont__mail">
+            <span class="sidebar__span">
+              <a class="cont__link" href="GriffBlack42018@gmail.com">
+               GriffBlack42018@gmail.com
+              </a>
+             </span>
+           </div>
           <div>
-            <span class="cont-l-type"> E:</span>
-            <a class="cont-link" href="chornyiav@gmail.com">
-              chornyiav@gmail.com
+            <span class="sidebar__span"> E:</span>
+            <a class="cont__link" href="GriffBlack42018@gmail.com">
+        
             </a>
           </div>
-        </div>
-        <!-- Tech Skills container -->
-        <div class="container">
-          <h3>Tech Skills</h3>
-          <ul>
-            <li>
-              <span>HTML5</span>
-            </li>
-            <li>
-              <span>CSS3</span>
-            </li>
-            <li>
-              <span>GIT</span>
-            </li>
-            <li>
-              <span>JavaScript</span>
-            </li>
-            <li>
-              <span>WebPack</span>
-            </li>
-            <li>
-              <span>React.js</span>
-            </li>
-            <li>
-              <span>Node.js</span>
-            </li>
-          </ul>
-        </div>
-        <!-- Soft Skills container -->
-        <div class="container">
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>
-              <span>Scrum</span>
-            </li>
-            <li>
-              <span>Agile</span>
-            </li>
-            <li>
-              <span>GTD</span>
-            </li>
-            <li>
-              <span>Teamwork</span>
-            </li>
-          </ul>
         </div>
       </aside>
       <!-- about me container -->
-      <div class="my-container">
+      <div class="my__container">
         <!-- about me main info -->
-        <div>
-          <h1>Медведев Юрий Сергеевич</h1>
-          <h2>Junior Front-End Developer</h2>
-          <p>
+        <div class="about__container">
+          <h1 class="about__title">Медведев Юрий Сергеевич</h1>
+          <h2 class="about__prof">Junior Front-End Developer</h2>
+          <p class="about__info">
           На протяжении 10 лет я работаю в ресторанной сфере. Я прошел путь от бармена-официанта до старшего
           бармена-администратора и получил опыт в управлении, обучении и адаптации персонала, развил коммуникабельность, навыки
           работы в команде, умения в стрессовых ситуациях приоритезировать задачи и быстро принимать решения.
-          <br>
+          </p>
+          <p class="about__info">
           Сейчас я меняю сферу деятельности, поскольку уверен, что именно в программировании смогу реализовать весь свой
           потенциал. Наработанные soft skills, профильное образование, быстрая обучаемость, системно-аналитическое мышление и
           гибкий подход к решению задач помогут мне открыть дверь в IT-индустрию.
           </p>
+        </div>
+        <div class="skills">
+          <!-- Tech Skills container -->
+          <div class="skills__container">
+            <h3 class="skills__title">Tech Skills</h3>
+            <ul>
+              <li class="skills__list">
+                <span class="skills__span">HTML5</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">CSS3</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">JavaScript</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">GIT</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">Vue.js</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">Vuex</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">Vue Cli 3</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">REST API</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Soft Skills container -->
+          <div class="skills__container">
+            <h3 class="skills__title">Soft Skills</h3>
+            <ul>
+              <li class="skills__list">
+                <span class="skills__span">Scrum</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">Agile</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">GTD</span>
+              </li>
+              <li class="skills__list">
+                <span class="skills__span">Teamwork</span>
+              </li>
+            </ul>
+          </div>
         </div>
         <!-- ptojects container -->
         <div>
