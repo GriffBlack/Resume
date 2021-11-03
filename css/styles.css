@@ -38,7 +38,7 @@ body {
   font-weight: 500;
   color: #212020;
   font-family: "Roboto", sans-serif;
-  text-align: justify;
+   text-align: justify;
 }
 .skills {
   display: flex;
@@ -103,6 +103,9 @@ body {
 .sidebar__contacts a{
   margin-top: 40px;
 }
+.sidebar__list{
+  list-style: none;
+}
 .cont-l-type {
   font-size: 14px;
   font-weight: 700;
@@ -118,17 +121,52 @@ body {
 .cont__phone::before{
   content: "\f095";
   font-family: 'icomoon';
-  color: #01bcc6;
+  color: #ff6b08;
 }
-.sidebar__city::before{
+.cont__city::before{
   content: "\f041";
   font-family: 'icomoon';
-  color: #01bcc6;
+  color: #ff6b08;
   font-size: 14px;
+}
+.sidebar__span{
+  color: #fff;
 }
 .cont__mail::before{
   content: "\f003";
   font-family: 'icomoon';
-  color: #01bcc6;
+  color: #ff6b08;
   font-size: 14px;
+}
+.projects{
+  padding: 40px;
+}
+.projects ul{
+  padding: 20px 20px;
+}
+.projects-box{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.projects-name{
+  max-width: 300px;
+  width: 100%;
+}
+.projects-inner{
+  max-width: 650px;
+  width: 100%;
+}
+.projects__link{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.projects__about{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #212020;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
 }
