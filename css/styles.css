@@ -101,10 +101,17 @@ body {
   margin: 55px 40px 0px;
 }
 .sidebar__contacts a{
-  margin-top: 40px;
+  text-decoration: none;
+  position: relative;
 }
 .sidebar__list{
   list-style: none;
+}
+.sidebar__phone::before{
+  content: "\f095";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  position: absolute;
 }
 .cont-l-type {
   font-size: 14px;
