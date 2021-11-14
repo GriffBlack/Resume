@@ -103,47 +103,72 @@ body {
 .sidebar__contacts a{
   text-decoration: none;
   position: relative;
+  color: #fff;
 }
 .sidebar__list{
   list-style: none;
+  line-height: 24px;
+}
+.sidebar__map::before{
+  content: "\f041";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
 }
 .sidebar__phone::before{
   content: "\f095";
   font-family: 'icomoon';
   color: #ff6b08;
-  position: absolute;
-}
-.cont-l-type {
   font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  margin-right: 10px;
+  /* position: absolute; */
+}
+.sidebar__mail::before{
+  content: "\f003";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__git::before{
+  content: "\f09b";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__in::before{
+  content: "\eaca";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__vk::before{
+  content: "\f189";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__fb::before{
+  content: "\ea90";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__tg::before{
+  content: "\ea95";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__inst::before{
+  content: "\ea92";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
 }
 .cont__link {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #80858e;
-}
-.cont__phone::before{
-  content: "\f095";
-  font-family: 'icomoon';
-  color: #ff6b08;
-}
-.cont__city::before{
-  content: "\f041";
-  font-family: 'icomoon';
-  color: #ff6b08;
-  font-size: 14px;
-}
-.sidebar__span{
-  color: #fff;
-}
-.cont__mail::before{
-  content: "\f003";
-  font-family: 'icomoon';
-  color: #ff6b08;
-  font-size: 14px;
 }
 .projects{
   padding: 40px;
