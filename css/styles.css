@@ -38,7 +38,7 @@ body {
   font-weight: 500;
   color: #212020;
   font-family: "Roboto", sans-serif;
-  text-align: justify;
+   text-align: justify;
 }
 .skills {
   display: flex;
@@ -101,13 +101,68 @@ body {
   margin: 55px 40px 0px;
 }
 .sidebar__contacts a{
-  margin-top: 40px;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
 }
-.cont-l-type {
-  font-size: 14px;
-  font-weight: 700;
+.sidebar__list{
+  list-style: none;
   line-height: 24px;
-  margin-right: 10px;
+}
+.sidebar__map::before{
+  content: "\f041";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__phone::before{
+  content: "\f095";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+  /* position: absolute; */
+}
+.sidebar__mail::before{
+  content: "\f003";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__git::before{
+  content: "\f09b";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__in::before{
+  content: "\eaca";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__vk::before{
+  content: "\f189";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__fb::before{
+  content: "\ea90";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__tg::before{
+  content: "\ea95";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
+}
+.sidebar__inst::before{
+  content: "\ea92";
+  font-family: 'icomoon';
+  color: #ff6b08;
+  font-size: 14px;
 }
 .cont__link {
   font-size: 14px;
@@ -115,20 +170,35 @@ body {
   line-height: 24px;
   color: #80858e;
 }
-.cont__phone::before{
-  content: "\f095";
-  font-family: 'icomoon';
-  color: #01bcc6;
+.projects{
+  padding: 40px;
 }
-.sidebar__city::before{
-  content: "\f041";
-  font-family: 'icomoon';
-  color: #01bcc6;
-  font-size: 14px;
+.projects ul{
+  padding: 20px 20px;
 }
-.cont__mail::before{
-  content: "\f003";
-  font-family: 'icomoon';
-  color: #01bcc6;
-  font-size: 14px;
+.projects-box{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.projects-name{
+  max-width: 300px;
+  width: 100%;
+}
+.projects-inner{
+  max-width: 650px;
+  width: 100%;
+}
+.projects__link{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.projects__about{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #212020;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
 }
