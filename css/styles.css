@@ -213,6 +213,9 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: justify;
 }
+.education__container{
+  padding: 20px 40px;
+}
 .education__title{
   text-align: center;
   font-size: 22px;
@@ -223,5 +226,21 @@ body {
 .education__cont{
   font-size: 18px;
   line-height: 24px;
-  padding: 20px 40px;
+  margin-bottom: 20px; 
+}
+.work__container{
+padding: 20px 40px;
+}
+.work__title{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px; 
+}
+.work__job{
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px; 
+  padding-left: 20px;
 }
